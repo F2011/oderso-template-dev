@@ -1,6 +1,8 @@
 #import "basic_formatting.typ": typst-preview
 #import "../utils.typ": caption-with-source
 
+= Test
+
 = Advanced Elements
 
 == Figures
