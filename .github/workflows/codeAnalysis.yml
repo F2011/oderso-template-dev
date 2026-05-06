@@ -119,7 +119,7 @@ jobs:
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: diff-pdf-${{ matrix.file }}
-          path: diff.pdf
+          path: diff-${{ matrix.file }}.pdf
           archive: false
       - name: Upload diff marker
         if: steps.diff_check.outcome == 'failure'
